@@ -1,34 +1,54 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# A Forma mais simples e performática de proteger Rotas API no Next.js
 
-## Getting Started
+<p align="center">
+  <a href="https://wazana.dev">
+    <img src="https://www.datocms-assets.com/41512/1642548236-logo.png" height="128">
+    <h1 align="center">wazana.dev</h1>
+  </a>
+</p>
 
-First, run the development server:
+<p align="center">
+  <a aria-label="Linkedin wazana.dev" href="https://www.linkedin.com/company/wazana-dev/">
+    <img src="https://img.shields.io/badge/wazana--dev-333.svg?style=for-the-badge&logo=linkedin&labelColor=0A66C2">
+  </a>
+  
+  <a aria-label="Instagram wazana.dev" href="https://www.instagram.com/wazana.dev/">
+    <img src="https://img.shields.io/badge/@wazana%2Edev-333.svg?style=for-the-badge&logo=instagram&logoColor=white&labelColor=E4405F">
+  </a>
+  
+  <a aria-label="YouTube wazana.dev" href="https://www.youtube.com/channel/UCVE9-HO_GzLtDK4IGKVSYXA">
+    <img src="https://img.shields.io/badge/Wazana-333.svg?style=for-the-badge&logo=youtube&logoColor=white&labelColor=FF0000">
+  </a>
+  
+  <a aria-label="Discord wazana.dev" href="https://discord.gg/MF6F4t8eQw">
+    <img src="https://img.shields.io/badge/wazana%2Edev-333.svg?style=for-the-badge&logo=discord&logoColor=white&labelColor=5865F2">
+  </a>
+</p>
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Introdução
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+O objetivo deste vídeo é utilizar os middlewares para autenticar rotas api em projetos Next.js.
+Utilizando os recursos das edge functions.
+[Link vídeo YouTube](https://youtu.be/UD02WicCh2Y)
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+Substituir o arquivo .env.test por .env
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+### Nível
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- [x] - Intermediário
 
-## Learn More
+## Tecnologias utilizadas
 
-To learn more about Next.js, take a look at the following resources:
+- `Next.js`
+- `Next-auth`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Autor
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+**Lucas Nhimi**
 
-## Deploy on Vercel
+[![Linkedin: lucasnhimi](https://img.shields.io/badge/-lucasnhimi-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/lucasnhimi/)](https://www.linkedin.com/in/lucasnhimi/)
+[![GitHub lucasnhimi](https://img.shields.io/github/followers/lucasnhimi?label=follow&style=social)](https://github.com/lucasnhimi)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Agradecimentos
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Conteúdo feito para [wazana.dev](https://www.wazana.dev/) - Tecnologia direto ao ponto.
